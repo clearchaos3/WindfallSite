@@ -80,6 +80,10 @@ body{
     font-size:3vw;
 }
 
+.imac{
+        width:100vw;
+    }
+
 .flag{
     width:3%;
 }
@@ -108,18 +112,41 @@ body{
     display:inline-block;
     color:#444;
     font-weight: 100;
-    font-size:3vw;
+    font-size:4vw;
     width:100vw;
     padding-left: 3.5vw;
     padding-right: 3.5vw;
 }
 
 .three img{
-    width:5%;
+    width:25vw;
+    display:inline-block;
 }
+
+.threeLeft{
+    float:left;
+    text-align: left;
+}
+
 .mobilePro{
     color:#C0392B;
 }
+
+.iphone{
+    display:inline-block;
+    color:#444;
+    font-weight: 100;
+    font-size:3vw;
+    width:100vw;
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+}
+.text{
+    text-align:left;
+    padding-left:2vw;
+    font-weight: 100;
+}
+
 
 .four{
     background-color:#446CB3;
@@ -153,7 +180,8 @@ body{
 }
 
 .four img{
-    width:5%;
+    width:8vw;
+    margin-top:-10vw;
 }
 .bold{
     font-weight: 400;
@@ -198,8 +226,19 @@ body{
         max-height:1080px;
     }
     .two p{
-        max-width:50%;
+        max-width:60vw;
+        display:inline;
         font-size:2vw;
+    }
+    .three p{
+        font-size:2vw;
+        max-width: 60vw;
+        margin-left:40vw;
+        
+    }
+    .imac{
+        width:25vw;
+        margin:0 auto;
     }
     
     
