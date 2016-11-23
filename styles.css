@@ -95,7 +95,6 @@ body{
     display:flex;
     flex-direction: column;
     height:100vh;
-    width:100vw;
     text-align: right;
 }
 
@@ -133,18 +132,22 @@ body{
 }
 
 .iphone{
-    display:inline-block;
     color:#444;
     font-weight: 100;
     font-size:3vw;
-    width:100vw;
     padding-left: 3.5vw;
     padding-right: 3.5vw;
+    width:100vw;
+    height:auto;
 }
 .text{
     text-align:left;
+    font-size:3vw;
     padding-left:2vw;
+    padding-right:2vw;
+    width:100vw;
     font-weight: 100;
+    
 }
 
 
@@ -164,16 +167,16 @@ body{
 .four h1{
     color:#eee;
     font-weight: 100;
-    font-size:3vw;
+    font-size:5vw;
     padding-left: 2vw;
     padding-right: 2vw;
-
 }
+
 .four p{
     display:block;
     color:#eee;
     font-weight: 100;
-    font-size:5vw;
+    font-size:6vw;
     width:100vw;
     padding-left: 3.5vw;
     padding-right: 3.5vw;
@@ -240,7 +243,12 @@ body{
         width:25vw;
         margin:0 auto;
     }
-    
+    .three img{
+        width:20vw;
+    }
+    .four h1{
+    font-size:3vw;
+    }
     
 }
 
