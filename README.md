@@ -1,2 +1,2 @@
-# WindfallSite
-Windfall Website
+# Windfall Website
+*Ryan Lee, Donnel Schroeter*
