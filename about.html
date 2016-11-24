@@ -1,30 +1,40 @@
 <!doctype html>
 
 <html lang="en">
+    
 <head>
     <meta charset="utf-8">
 
     <title>Windfall - About - Asset Controls Inc</title>
     <meta name="description" content="Windfall Warehouse Management System Software Asset Controls">
     <meta name="author" content="Ryan Lee">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/jquery.fullPage.css">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/master.css">
+    <link rel="stylesheet" href="/css/about.css">
 </head>
 
+<header class="header">
+
+        <ul class="nav-bar">
+            <li><a href="\index.html"><img id="logo" src="img/WindfallFlag.png"/></a></li>
+            <li id="tab"><a href="\about.html">About</a></li>
+            <li id="tab"><a href="\support.html">Support</a></li>
+            <li id="tab"><a href="\training.html">Training</a></li>
+            <li id="tab"><a href="\contact-us.html">Contact Us</a></li>
+        </ul>
+
+        <div class="input-group stylish-input-group">
+            <input type="text" class="form-control"  placeholder="Search" >
+            <span class="input-group-addon">
+                <button type="submit">
+                    <span class="glyphicon glyphicon-search"></span>
+                </button>  
+            </span>
+        </div>
+
+</header>
+    
 <body>
     <div>
-        <header>
-            <nav>
-                <a href="\index.html"><img class ="flag" src="img/WindfallFlag.png"/></a>
-                <a href="\about.html">About</a>
-                <a href="\products.html">Products</a>
-                <a href="\support.html">Support</a>
-                <a href="\training.html">Training</a>
-                <a href="\contact-us.html">Contact Us</a>
-            </nav>
-        </header>
         
         <div id="fullpage">
     
@@ -72,21 +82,21 @@ flawlessly with the web-based software. </p>
     
 
 </div>
-<div class="wrapper four section clearfix">
-    <div class="containerFour clearfix">
-        <img src="img/WindfallFlag.png">
-        <h1>Windfall is <span class="bold">completely web-based</span><br>
-and hosted in <span class="bold">dual hosting centers</span><br> 
-located in <span class="bold">two different states.</span> <br><br>
+    <div class="wrapper four section clearfix">
+        <div class="containerFour clearfix">
+            <img src="img/WindfallFlag.png">
+            <h1>Windfall is <span class="bold">completely web-based</span><br>
+    and hosted in <span class="bold">dual hosting centers</span><br> 
+    located in <span class="bold">two different states.</span> <br><br>
 
-            <span class="bold">Seven national van lines</span> have<br>
-already chosen Windfall.<br><br>
+                <span class="bold">Seven national van lines</span> have<br>
+    already chosen Windfall.<br><br>
 
-            <span class="bold">Contact us</span> to set up a demonstration.</h1> 
+                <span class="bold">Contact us</span> to set up a demonstration.</h1> 
+        </div>
+
     </div>
-
-</div>
-    <footer class="footer"><span class="left">Asset Controls, Inc. &#8226; 3440 Hollenberg Dr &#8226; St. Louis, MO  63044 &#8226; Phone: 314-738-9010 &#8226; Support: 314-925-1547 &#8226; New Sales: 314-925-1543 &#8226; ContactUs@AssetControls.com</span><span class="right">Documents &#8226; Videos &#8226; FAQ</span></footer>
+    
 </div>
         
     </div>
@@ -94,78 +104,11 @@ already chosen Windfall.<br><br>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="/js/jquery.fullPage.js"></script>
-    <script>$(document).ready(function() {
-    $('#fullpage').fullpage({
-        //Navigation
-        menu: '#menu',
-        lockAnchors: false,
-        anchors:['home', 'ng', 'mobilepro', 'contact'],
-        navigation: false,
-        navigationPosition: 'right',
-        navigationTooltips: ['firstSlide', 'secondSlide'],
-        showActiveTooltip: false,
-        slidesNavigation: true,
-        slidesNavPosition: 'bottom',
-
-        //Scrolling
-        css3: true,
-        scrollingSpeed: 700,
-        autoScrolling: true,
-        fitToSection: true,
-        fitToSectionDelay: 1000,
-        scrollBar: false,
-        easing: 'easeInOutCubic',
-        easingcss3: 'ease',
-        loopBottom: false,
-        loopTop: false,
-        loopHorizontal: true,
-        continuousVertical: false,
-        continuousHorizontal: false,
-        scrollHorizontally: false,
-        interlockedSlides: false,
-        dragAndMove: false,
-        offsetSections: false,
-        resetSliders: false,
-        fadingEffect: false,
-        normalScrollElements: '#element1, .element2',
-        scrollOverflow: false,
-        scrollOverflowOptions: null,
-        touchSensitivity: 15,
-        normalScrollElementTouchThreshold: 5,
-        bigSectionsDestination: null,
-
-        //Accessibility
-        keyboardScrolling: true,
-        animateAnchor: true,
-        recordHistory: true,
-
-        //Design
-        controlArrows: true,
-        verticalCentered: true,
-        sectionsColor : ['#ccc', '#fff'],
-        paddingTop: '3em',
-        paddingBottom: '10px',
-        fixedElements: '#header, .footer',
-        responsiveWidth: 0,
-        responsiveHeight: 0,
-        responsiveSlides: false,
-
-        //Custom selectors
-        sectionSelector: '.section',
-        slideSelector: '.slide',
-
-        lazyLoading: true,
-
-        //events
-        onLeave: function(index, nextIndex, direction){},
-        afterLoad: function(anchorLink, index){},
-        afterRender: function(){},
-        afterResize: function(){},
-        afterResponsive: function(isResponsive){},
-        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
-        onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
-    });
-});</script>
+  
 </body>
+    
+<footer class="footer">
+    <span class="left">Asset Controls, Inc. &#8226; 3440 Hollenberg Dr &#8226; St. Louis, MO  63044 &#8226; Phone: 314-738-9010 &#8226; Support: 314-925-1547 &#8226; New Sales: 314-925-1543 &#8226; ContactUs@AssetControls.com</span><span class="right">Documents &#8226; Videos &#8226; FAQ</span>
+</footer>
+    
 </html>

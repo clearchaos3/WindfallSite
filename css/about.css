@@ -1,0 +1,48 @@
+/************ NAV BAR STYLING *****************/
+/* if this nav bar works then we will transfer styling to styles.css */
+
+.header {
+    height:             82px;
+    background-color:   none;
+}
+
+.nav-bar > ul {
+    list-style-type:    none;
+    margin:             0;
+    padding:            0;
+    overflow:           hidden;
+    background-color:   #333;
+}
+
+.nav-bar > li {
+    float:              left;
+}
+
+.nav-bar > li > a {
+    display:            block;
+    color:              black;
+    text-align:         center;
+    padding:            14px 16px;
+    text-decoration:    none;
+}
+
+.nav-bar #logo {
+    max-width:          15%;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+#tab:hover {
+    background-color:   #111;
+}
+
+
+/************ END NAV BAR STYLING *****************/
+
+
+/* below are just temporary styling overrides for an alternate footer styling */
+.footer {
+    position:           relative;
+    color:              black;
+}
+/* End temporary styling */

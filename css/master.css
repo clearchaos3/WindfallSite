@@ -1,0 +1,6 @@
+/* This is a master style sheet to package all common css */
+
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("jquery.fullPage.css");
+@import url("reset.css");
+@import url("styles.css");
