@@ -4,6 +4,9 @@
 .header {
     height:             44px;
     background-color:   black;
+    border-bottom:      4px;
+    border-bottom-color: aliceblue;
+    border-bottom-style: solid;
 }
 
 .active{
@@ -60,5 +63,10 @@
 
 .footer {
     width:              table-cell;
+    height:             200px;
+}
+
+.social-media-icons > a > img {
+    max-width:          40px;
 }
 /* End temporary styling */
