@@ -9,9 +9,11 @@
     border-bottom-style: solid;
 }
 
+/*
 .active{
     background-color: crimson;
 }
+*/
 
 .nav-bar > ul {
     width:              100%;
@@ -34,7 +36,7 @@
     color:              darkgray;
     display:            inline-block;
     text-align:         center;
-    padding:            14px 16px;
+    padding:            14px 16px 10.4px;
     text-decoration:    none;
 }
 

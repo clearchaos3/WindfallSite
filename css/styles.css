@@ -244,8 +244,8 @@ body{
     }
     .two p{
         max-width:60vw;
-        display:inline;
-        font-size:2vw;
+        display:inline-block;
+        font-size:1.7vw;
     }
     .three p{
         font-size:2vw;
