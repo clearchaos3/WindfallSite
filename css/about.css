@@ -1,0 +1,72 @@
+/************ NAV BAR STYLING *****************/
+/* if this nav bar works then we will transfer styling to styles.css */
+
+.header {
+    height:             44px;
+    background-color:   black;
+    border-bottom:      4px;
+    border-bottom-color: aliceblue;
+    border-bottom-style: solid;
+}
+
+.active{
+    background-color: crimson;
+}
+
+.nav-bar > ul {
+    width:              100%;
+    list-style-type:    none;
+    margin:             0;
+    padding:            0;
+    overflow:           hidden;
+
+}
+
+.nav-bar > li {
+    float:              left;
+}
+
+.nav-bar > li .logo-item{
+    padding:            0 0;
+}
+
+.nav-bar > li > a {
+    color:              darkgray;
+    display:            inline-block;
+    text-align:         center;
+    padding:            14px 16px;
+    text-decoration:    none;
+}
+
+.nav-bar #logo {
+    max-height:          44px;
+    float:              left;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+.tab:hover > a {
+    background-color:   red;
+    color:              whitesmoke;
+}
+
+
+/************ END NAV BAR STYLING *****************/
+
+
+/* below are just temporary styling overrides for an alternate footer styling */
+.footer {
+    position:           relative;
+    color:              darkgray;
+    background-color:   black;
+}
+
+.footer {
+    width:              table-cell;
+    height:             200px;
+}
+
+.social-media-icons > a > img {
+    max-width:          40px;
+}
+/* End temporary styling */
