@@ -1,12 +1,11 @@
 /************ NAV BAR STYLING *****************/
 /* if this nav bar works then we will transfer styling to styles.css */
 
-.header {
-    height:             44px;
-    background-color:   black;
-    border-bottom:      4px;
-    border-bottom-color: aliceblue;
-    border-bottom-style: solid;
+#header {
+    height:             40px;
+    position:relative;
+    background:#111;
+    width:100%;
 }
 
 /*
@@ -33,7 +32,7 @@
 }
 
 .nav-bar > li > a {
-    color:              darkgray;
+    color:              #eee;
     display:            inline-block;
     text-align:         center;
     padding:            14px 16px 10.4px;
@@ -41,14 +40,20 @@
 }
 
 .nav-bar #logo {
-    max-height:          44px;
+    max-height:          40px;
     float:              left;
 }
+
+.ngText p{
+    margin-left:5vw;
+    display:block;
+}
+
 
 
 /* Change the link color to #111 (black) on hover */
 .tab:hover > a {
-    background-color:   red;
+    background-color:   rgba(255,0,0,0.9);
     color:              whitesmoke;
 }
 
@@ -58,17 +63,25 @@
 
 /* below are just temporary styling overrides for an alternate footer styling */
 .footer {
-    position:           relative;
+    position:           fixed;
     color:              darkgray;
     background-color:   black;
+    font-size: .8em;
+    width:              100vw;
+    max-height:             50px;
 }
-
-.footer {
-    width:              table-cell;
-    height:             200px;
+.col-sm-5{
+    margin-top:6px;
+    display:inline;
 }
 
 .social-media-icons > a > img {
-    max-width:          40px;
+    max-width:          30px;
+    float:right;
 }
 /* End temporary styling */
+@media (min-width: 769px){
+    .footer{
+        font-size:1em;
+    }
+}

@@ -4,3 +4,7 @@
 @import url("jquery.fullPage.css");
 @import url("reset.css");
 @import url("styles.css");
+
+#header{
+    z-index:100;
+}
