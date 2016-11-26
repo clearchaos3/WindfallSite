@@ -14,6 +14,7 @@
 }
 */
 
+
 .nav-bar > ul {
     width:              100%;
     list-style-type:    none;
@@ -25,6 +26,7 @@
 
 .nav-bar > li {
     float:              left;
+    cursor:pointer;
 }
 
 .nav-bar > li .logo-item{
@@ -57,10 +59,20 @@ p.about{
 
 
 
+
+
 /* Change the link color to #111 (black) on hover */
 .tab:hover > a {
     background-color:   rgba(255,0,0,0.9);
     color:              whitesmoke;
+}
+.youtube:hover > a{
+    color:#eee;
+    background-color:rgba(255,0,0,0.8);
+}
+.facebook:hover > a{
+    color:#eee;
+    background-color:rgba(0,0,255,.8);
 }
 
 
@@ -68,26 +80,16 @@ p.about{
 
 
 /* below are just temporary styling overrides for an alternate footer styling */
-.footer {
-    position:           fixed;
-    color:              darkgray;
-    background-color:   black;
-    font-size: .8em;
-    width:              100vw;
-    max-height:             50px;
+
+.container{
+    width:auto;
+    float:right;
+    margin:0;
+    padding:0;
 }
-.col-sm-5{
-    margin-top:6px;
-    display:inline;
+.footer p{
+    display:inline-block;
 }
 
-.social-media-icons > a > img {
-    max-width:          30px;
-    float:right;
-}
+
 /* End temporary styling */
-@media (min-width: 769px){
-    .footer{
-        font-size:1em;
-    }
-}
