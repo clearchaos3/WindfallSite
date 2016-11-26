@@ -58,8 +58,8 @@ html.fp-enabled,
     height: 100%;
 }
 .fp-slidesContainer {
-    float: left;
     position: relative;
+    margin:0 auto;
 }
 .fp-controlArrow {
     -webkit-user-select: none; /* webkit (safari, chrome) browsers */
